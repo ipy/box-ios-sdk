@@ -9,7 +9,7 @@
 import Foundation
 import Security
 
-struct KeychainService {
+public struct KeychainService {
     let secureStoreQueryable: KeychainStoreQueryable
 
     init(secureStoreQueryable: KeychainStoreQueryable) {

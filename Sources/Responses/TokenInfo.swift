@@ -22,7 +22,7 @@ public class TokenInfo: Codable {
         case issuedTokenType
     }
 
-    var accessToken: String
+    public var accessToken: String
     var refreshToken: String?
     var expiresIn: TimeInterval
     var tokenType: String

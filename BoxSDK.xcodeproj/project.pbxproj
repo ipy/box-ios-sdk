@@ -82,6 +82,7 @@
 		176CAE09231D72BC004269F5 /* GetFileVersionRetention.json in Resources */ = {isa = PBXBuildFile; fileRef = 176CAE08231D72BC004269F5 /* GetFileVersionRetention.json */; };
 		176CAE0D231D72D2004269F5 /* GetFileVersionRetentions.json in Resources */ = {isa = PBXBuildFile; fileRef = 176CAE0C231D72D2004269F5 /* GetFileVersionRetentions.json */; };
 		1772A480230EBEBC00546866 /* EventContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1772A47F230EBEBC00546866 /* EventContainer.swift */; };
+		1BCD81F7FCFC7804EB8CF0DB /* MultiUserKeychainTokenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCD8D8B31B6D4E829302522 /* MultiUserKeychainTokenStore.swift */; };
 		220C791522AFECA100CD3723 /* EmailAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C791422AFECA100CD3723 /* EmailAlias.swift */; };
 		2227648B2296FA19008113D1 /* DelegatedAuthSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2227648A2296FA19008113D1 /* DelegatedAuthSession.swift */; };
 		2228B19322C0C8F5001F759D /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD4842E2295A28100E61C35 /* Lock.swift */; };
@@ -400,9 +401,9 @@
 		F92CF9A52356A8430046A277 /* BoxAPIAuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92CF9A42356A8430046A277 /* BoxAPIAuthError.swift */; };
 		F941067223513DD00061A3F8 /* ArrayInputStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = F941067123513DD00061A3F8 /* ArrayInputStream.swift */; };
 		F9571FB42371F47400D30EF1 /* LoggingSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9571FB22371ECCB00D30EF1 /* LoggingSpecs.swift */; };
+		F95A81C124606DC300C46E98 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95A81C024606DC300C46E98 /* UIColorExtension.swift */; };
 		F95D6F802451F6D0008B09CF /* BoxDownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D6F7F2451F6D0008B09CF /* BoxDownloadTask.swift */; };
 		F95D6F832453415A008B09CF /* BoxUploadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D6F822453415A008B09CF /* BoxUploadTask.swift */; };
-		F95A81C124606DC300C46E98 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95A81C024606DC300C46E98 /* UIColorExtension.swift */; };
 		F95D6F85245C9DFF008B09CF /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D6F84245C9DFF008B09CF /* Classification.swift */; };
 		F969D37C233A7146001301FC /* StoragePoliciesModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F969D37B233A7146001301FC /* StoragePoliciesModule.swift */; };
 		F969D381233A71B4001301FC /* StoragePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F969D380233A71B4001301FC /* StoragePolicy.swift */; };
@@ -558,6 +559,7 @@
 		176CAE08231D72BC004269F5 /* GetFileVersionRetention.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GetFileVersionRetention.json; sourceTree = "<group>"; };
 		176CAE0C231D72D2004269F5 /* GetFileVersionRetentions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GetFileVersionRetentions.json; sourceTree = "<group>"; };
 		1772A47F230EBEBC00546866 /* EventContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventContainer.swift; sourceTree = "<group>"; };
+		1BCD8D8B31B6D4E829302522 /* MultiUserKeychainTokenStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiUserKeychainTokenStore.swift; sourceTree = "<group>"; };
 		220C791422AFECA100CD3723 /* EmailAlias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailAlias.swift; sourceTree = "<group>"; };
 		2227648A2296FA19008113D1 /* DelegatedAuthSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatedAuthSession.swift; sourceTree = "<group>"; };
 		223917F222787C25000E11E5 /* URLExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtension.swift; sourceTree = "<group>"; };
@@ -880,9 +882,9 @@
 		F92CF9A42356A8430046A277 /* BoxAPIAuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxAPIAuthError.swift; sourceTree = "<group>"; };
 		F941067123513DD00061A3F8 /* ArrayInputStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayInputStream.swift; sourceTree = "<group>"; };
 		F9571FB22371ECCB00D30EF1 /* LoggingSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingSpecs.swift; sourceTree = "<group>"; };
+		F95A81C024606DC300C46E98 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		F95D6F7F2451F6D0008B09CF /* BoxDownloadTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxDownloadTask.swift; sourceTree = "<group>"; };
 		F95D6F822453415A008B09CF /* BoxUploadTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxUploadTask.swift; sourceTree = "<group>"; };
-		F95A81C024606DC300C46E98 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		F95D6F84245C9DFF008B09CF /* Classification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
 		F969D37B233A7146001301FC /* StoragePoliciesModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoragePoliciesModule.swift; sourceTree = "<group>"; };
 		F969D380233A71B4001301FC /* StoragePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoragePolicy.swift; sourceTree = "<group>"; };
@@ -1070,6 +1072,7 @@
 				0CCBC29E22841BF700640FA8 /* KeychainRelated */,
 				0CCBC29F22841C0900640FA8 /* KeychainTokenStore.swift */,
 				0CCBC29922841B0C00640FA8 /* TokenStore.swift */,
+				1BCD8D8B31B6D4E829302522 /* MultiUserKeychainTokenStore.swift */,
 			);
 			path = TokenStore;
 			sourceTree = "<group>";
@@ -2493,6 +2496,7 @@
 				805E069F22DE52B800892E5C /* MetadataSearchFilter.swift in Sources */,
 				9DE5D7DE22EF388E0081A031 /* Event.swift in Sources */,
 				97D8727A22F3D05500FB9DFE /* ResponseHandler.swift in Sources */,
+				1BCD81F7FCFC7804EB8CF0DB /* MultiUserKeychainTokenStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
